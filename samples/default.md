@@ -8,6 +8,7 @@
   * Amazon Lambda
   * lambda
   * Amazon IoT Core
+  * AWS Cognito
 
 ## Right:
 
@@ -16,3 +17,4 @@
   * AWS Lambda
   * Lambda
   * AWS IoT Core
+  * Amazon Cognito
