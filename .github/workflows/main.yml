@@ -15,8 +15,6 @@ jobs:
     - name: Vale
       uses: errata-ai/vale-action@v1.3.0
       with:
-        styles: |
-          https://github.com/soulim/vale-aws/releases/latest/download/AWS.zip
         files: '${{ steps.file-changes.outputs.files_modified }}'
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
