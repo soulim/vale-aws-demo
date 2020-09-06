@@ -1,22 +1,12 @@
-# vale-aws-demo
+# Demo of AWS style for Vale CLI _(vale-aws-demo)_
 
-## Tests
+This repository exists just to demonstrate how the AWS style for Vale prose
+linter could work for you.
 
-Wrong:
+## Contributing
 
-  * dynamodb
-  * AWS DynamoDB
-  * Amazon dynamodb
-  * Amazon Lambda
-  * lambda
-  * Amazon IoT Core
-  * Amazon Glue
+PRs accepted.
 
-Right:
+## License
 
-  * Amazon DynamoDB
-  * DynamoDB
-  * AWS Lambda
-  * Lambda
-  * AWS Glue
-  * AWS IoT Core
+MIT © [Alexander Sulim](https://sul.im/)
