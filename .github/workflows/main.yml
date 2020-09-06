@@ -6,13 +6,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@v2
+
+    - name: File Changes
+      id: file-changes
+      uses: trilom/file-changes-action@v1.2.3
 
     - name: Vale
       uses: errata-ai/vale-action@v1.3.0
       with:
         styles: |
           https://github.com/soulim/vale-aws/releases/latest/download/AWS.zip
-        files: samples
+        files: '${{ steps.file-changes.outputs.files_modified }}'
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

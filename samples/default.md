@@ -1,6 +1,6 @@
-# Default samples
+# Default sample
 
-Wrong:
+## Wrong:
 
   * dynamodb
   * AWS DynamoDB
@@ -8,13 +8,11 @@ Wrong:
   * Amazon Lambda
   * lambda
   * Amazon IoT Core
-  * Amazon Glue
 
-Right:
+## Right:
 
   * Amazon DynamoDB
   * DynamoDB
   * AWS Lambda
   * Lambda
-  * AWS Glue
   * AWS IoT Core
