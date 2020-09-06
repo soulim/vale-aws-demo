@@ -16,5 +16,3 @@
   * AWS Lambda
   * Lambda
   * AWS IoT Core
-
-..
